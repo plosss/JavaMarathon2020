@@ -20,7 +20,6 @@ public class Task3 {
                 continue;
             }
             System.out.println(a / b);
-
         }
     }
 }
