@@ -12,12 +12,15 @@ public class Task3 {
         while (i < 5) {
             double a = Double.parseDouble(reader.readLine());
             double b = Double.parseDouble(reader.readLine());
+
+            i++;
+
             if (b == 0) {
                 System.out.println("Деление на ноль");
                 continue;
             }
             System.out.println(a / b);
-            i++;
+
         }
     }
 }
