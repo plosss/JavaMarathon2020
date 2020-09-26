@@ -28,11 +28,11 @@ public class Task1 {
             sum = sum + array[i];
             if (array[i] > 8)
                 moreThanEight++;
-            else if (array[i] == 1)
+            if (array[i] == 1)
                 one++;
-            else if (array[i] % 2 == 0) // с четными/нечетными вроде правильно пишу код, но вывод не правильный
+            if (array[i] % 2 == 0) 
                 even++;
-            else if (array[i] % 2 != 0)
+            if (array[i] % 2 != 0)
                 odd++;
         }
 

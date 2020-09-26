@@ -20,11 +20,11 @@ public class Task2 {
         for (int n : numbers) {
             if (n > max)
                 max = n;
-            else if (n < min)
+            if (n < min)
                 min = n;
-            else if (n % 10 == 0) { // когда в массиве встречается одна цифра заканчивающаяся
-                count++;            // на 0, то счетчик count и sum выводит корректно, но если
-                sum = sum + n;      // более одной то результат выходит ошибочный. Подскажите пжл в чем дело
+            if (n % 10 == 0) {
+                count++;
+                sum = sum + n;
             }
 
         }
