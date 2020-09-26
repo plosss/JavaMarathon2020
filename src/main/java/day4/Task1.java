@@ -30,7 +30,7 @@ public class Task1 {
                 moreThanEight++;
             if (array[i] == 1)
                 one++;
-            if (array[i] % 2 == 0) 
+            if (array[i] % 2 == 0)
                 even++;
             if (array[i] % 2 != 0)
                 odd++;
