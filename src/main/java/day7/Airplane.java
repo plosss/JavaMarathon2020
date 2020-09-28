@@ -1,4 +1,4 @@
-package day6;
+package day7;
 
 public class Airplane {
     private String producer;
@@ -62,6 +62,13 @@ public class Airplane {
 
     public void setFuel(int fuel) {
         this.fuel = fuel;
+    }
+
+    public static void compareAirplanes(Airplane a, Airplane b){
+        String difference = a.length > b.length ? "Самолет "+ a.getProducer() + " длинее" :
+                "Самолет " + b.getProducer() +  " длинее";
+        System.out.println(difference);
+        //System.out.println(Math.max(a.length, b.length));
     }
 }
 

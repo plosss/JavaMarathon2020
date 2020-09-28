@@ -39,6 +39,6 @@ public class MotoBike {
     }
 
     int yearDifference(int currentYear){
-        return  currentYear - this.year;
+        return  Math.abs(currentYear - this.year);
     }
 }

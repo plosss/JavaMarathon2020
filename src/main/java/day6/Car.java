@@ -26,11 +26,11 @@ package day6;
         return model;
     }
 
-    void info(){
+    public void info(){
         System.out.println("Это автомобиль");
     }
 
-    int yearDifference(int currentYear){
-        return  currentYear - this.year;
+    public int yearDifference(int currentYear){
+        return  Math.abs(currentYear - this.year);
     }
 }
