@@ -42,5 +42,6 @@ public class Task2 {
         for (int i = Player.MAX_STAMINA; i > Player.MIN_STAMINA ; i--) {
             p1.run();
         }
+
     }
 }

@@ -13,5 +13,6 @@ public class Task1 {
         Airplane b = new Airplane("Scat",2013,20,20000);
 
         Airplane.compareAirplanes(a,b);
+
     }
 }
