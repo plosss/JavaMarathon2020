@@ -68,7 +68,9 @@ public class Airplane {
         String difference = a.length > b.length ? "Самолет "+ a.getProducer() + " длинее" :
                 "Самолет " + b.getProducer() +  " длинее";
         System.out.println(difference);
+
         //System.out.println(Math.max(a.length, b.length));
+        // как второй вариант
     }
 }
 
